@@ -1,4 +1,4 @@
-# print
+# Day 1
 print("Its my first Day")
 print("It\"s my first Day") #some error
 print("First" + "Day")
@@ -34,3 +34,8 @@ elif a == b:
     print("a equal to b")    
 else:
     print("false")
+
+#Day2
+def callMe(a,b): #(a,b=2) default
+    print(a+b)
+callMe(2,4)
